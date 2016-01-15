@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Asistencia</string>
+    <string name="title_activity_trabajos">Trabajos</string>
+    <string name="title_activity_evaluacion">Evaluacion</string>
+</resources>

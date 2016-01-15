@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".Inicio">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/inicio_text_usuario"
+            android:hint="Usuario"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/inicio_text_password"
+            android:hint="Password"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            android:layout_marginTop="30dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/inicio_boton_iniciar_sesion"
+            android:text="Iniciar sesión"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/inicio_label_registrarse"
+            android:alpha=".87"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:text="¿Olvidaste tu contraseña? Recuperala"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

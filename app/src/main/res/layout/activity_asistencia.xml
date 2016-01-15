@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rafael.asistencia.Asistencia">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/asistencia_text_dia_asistencia"
+            android:alpha=".82"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Dia de la asistencia"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:textSize="16sp"
+            android:layout_weight="6"
+            android:text="Tipo de asistencia"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="A"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="R"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="F"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/asistencia_lista_asistencia"
+        android:layout_weight="16"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp">
+    </ListView>
+    <Button
+        android:id="@+id/asistencia_boton_guardar"
+        android:layout_gravity="center"
+        android:text="Guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
